@@ -1,6 +1,9 @@
 # PlutoSDR
 Before running the programs, make sure you have *Communications Toolbox Support Package for Analog Devices ADALM-Pluto Radio* ready. Connect ADALM-PLUTO to your computer, and run
 >sdrdev('Pluto');
+
+
+
 >configurePlutoRadio('AD9364')
 
 
