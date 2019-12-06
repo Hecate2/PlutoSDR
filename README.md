@@ -26,6 +26,6 @@ in MATLAB for only once, which assures that your Pluto can handle FM frequency.
 
 
 
-**RT.m** is a test of real-time duplexing. It requires accurate controls of hardware. Do not change the size of buffers, or the signals processed in Pluto may break off and be lost!  
+**RT.m** is a test of real-time duplexing. It requires accurate controls of hardware. Do not change the size of buffers. Otherwise the signals processed in Pluto may break off and be lost!  
   
-I understand that you may want a program to broadcast your real-time speech. I probably will not be available to develop such a program. You may first build a recording program, and then FMmodulate every frame to broadcast them. 
+I understand that you may want a program to broadcast your real-time speech. I probably will not be available to develop such a program. You may first build a real-time recording program, and then FMmodulate every frame to broadcast them. 
